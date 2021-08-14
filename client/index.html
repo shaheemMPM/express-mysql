@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Treasury Bank ATM System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="second_container" id="sectionWithdraw" style="display: block">
+      <div>
+        <label for="uname" style="font: bold"
+          >USER
+          NAME:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label
+        >
+        <input type="text" id="etUsername" name="uname" value="" /><br />
+
+        <label for="amount" style="font: bold">WITHDRAWAL AMOUNT:</label>
+        <input type="text" id="etAmount" name="amount" value="" /><br /><br />
+        <button id="btnWithdraw">WITHDRAW</button>
+      </div>
+    </div>
+
+    <div class="second_container" id="sectionBalance" style="display: none">
+      <h1 style="color: yellow">WITHDRAWAL SUCCESSFUL</h1>
+      <label for="balance" class="label">SAVINGS BALANCE:</label>
+      <input type="text" id="etBalance" name="balance" disabled /><br />
+      <br />
+      <br />
+      <br />
+
+      <h2 style="color: blue">THANK YOU FOR BANKING WITH US</h2>
+    </div>
+
+    <div class="bottom_container">
+      <h3>Contact Us</h3>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
